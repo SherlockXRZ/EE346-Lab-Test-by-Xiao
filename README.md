@@ -18,45 +18,45 @@ ubuntu 18.04, Melodic
 可能需要的操作有
 
 添加cource models 和 刷新环境变量
-'''
+
 $ export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:~/catkin_ws/src/lane_following/models
 
 $ source ~/catkin_ws/devel/setup.bash
-'''
+
 
 接下来开始测试Part1
-'''
-// 启动gazebo地图
+
+ 启动gazebo地图
 
 $ roslaunch lane_following race_track.launch
-'''
+
 
 在另一个命令行中启动part1节点
-'''
-rosrun lane_following lane_following_part1.py
-'''
+
+$ rosrun lane_following lane_following_part1.py
+
 
 ## Part2: Driving with BEV with Perspective Distortion Correction
 打开命令行，进入catkin_ws目录下,启动程序。
 可能需要的操作有
 
 添加cource models 和 刷新环境变量
-'''
+
 $ export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:~/catkin_ws/src/lane_following/models
 
 $ source ~/catkin_ws/devel/setup.bash
-'''
+
 
 启动gazebo地图
-'''
-roslaunch lane_following race_track.launch
-'''
+
+$ roslaunch lane_following race_track.launch
+
 
 在另一个命令行中其中part2的节点
 
-'''
-rosrun lane_following lane_following_part2.py
-'''
+
+$ rosrun lane_following lane_following_part2.py
+
 
 
 ## Part3: Stop Sign with Aruco Marker
@@ -64,21 +64,21 @@ rosrun lane_following lane_following_part2.py
 可能需要的操作有
 
 添加cource models 和 刷新环境变量
-'''
+
 $ export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:~/catkin_ws/src/lane_following/models
 
 $ source ~/catkin_ws/devel/setup.bash
-'''
+
 
 启动gazebo地图
-'''
-roslaunch lane_following race_track.launch
-'''
+
+$ roslaunch lane_following race_track.launch
+
 
 在另一个命令行中其中part2的节点
-'''
-rosrun lane_following lane_following_part3.py
-'''
+
+$ rosrun lane_following lane_following_part3.py
+
 
 
 
