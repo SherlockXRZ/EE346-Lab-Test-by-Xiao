@@ -19,14 +19,18 @@ ubuntu 18.04, Melodic
 
 '''
 // 添加cource models
+
 $ export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:~/catkin_ws/src/lane_following/models
+
 // 刷新环境变量
+
 source ~/catkin_ws/devel/setup.bash
 '''
 
 接下来开始测试Part1
 '''
 // 启动gazebo地图
+
 $ roslaunch lane_following race_track.launch
 '''
 
@@ -41,8 +45,11 @@ rosrun lane_following lane_following_part1.py
 
 '''
 // 添加cource models
+
 $ export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:~/catkin_ws/src/lane_following/models
+
 // 刷新环境变量
+
 source ~/catkin_ws/devel/setup.bash
 '''
 
@@ -63,8 +70,11 @@ rosrun lane_following lane_following_part2.py
 
 '''
 // 添加cource models
+
 $ export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:~/catkin_ws/src/lane_following/models
+
 // 刷新环境变量
+
 source ~/catkin_ws/devel/setup.bash
 '''
 
