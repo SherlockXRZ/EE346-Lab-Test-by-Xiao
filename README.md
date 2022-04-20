@@ -75,7 +75,7 @@ $ source ~/catkin_ws/devel/setup.bash
 $ roslaunch lane_following race_track.launch
 
 
-在另一个命令行中启动part2的节点
+在另一个命令行中启动part3的节点
 
 $ rosrun lane_following lane_following_part3.py
 
